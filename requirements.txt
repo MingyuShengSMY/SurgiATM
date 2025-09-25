@@ -1,0 +1,16 @@
+torch==2.4.1
+torchvision==0.19.1
+numpy==1.26.4
+timm==0.9.7
+fvcore==0.1.5.post20221221
+scipy==1.14.1
+opencv-python==4.11.0.86
+pillow==10.2.0
+tqdm==4.66.5
+kornia==0.8.1
+PyYAML==6.0.2
+pandas==2.2.3
+piq==0.8.0
+matplotlib==3.9.2
+noise==1.2.2
+scikit-learn==1.5.2
