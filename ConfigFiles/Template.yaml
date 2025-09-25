@@ -1,0 +1,46 @@
+method:
+  name: __method_name__
+  input_size: [256, 256]
+  video_input: __video_input__
+  train_video_length: __video_length__
+  test_video_length: __test_video_length__
+
+  args:
+    __args__
+
+  opt:
+    - name: "Adam"
+      lr: __lr__
+      beta1: __opt_beta1__
+      beta2: __opt_beta2__
+
+model_load_dir: __model_load_dir__
+
+training:
+  epoch: __epoch__
+  batch_size: __batch_size__
+  patience: __patience__
+  save_metric: __save_metric__
+
+  no_train_mark: __no_train_mark__
+
+output:
+  dir: output/__output_mid_dir__
+
+log:
+  dir: log/__output_mid_dir__
+
+random_seed: __random_seed__
+
+dataset:
+  dir: dataset
+  name: __dataset_name__
+  fold_id: __fold_id__
+  test_on_all_fold: __test_on_all_fold__
+  gt_mark: __gt_mark__
+
+use_gpu: true
+
+num_workers: __num_workers__
+
+verbose: __verbose__

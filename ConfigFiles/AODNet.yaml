@@ -1,0 +1,46 @@
+method:
+  name: AODNet
+  input_size: [256, 256]
+  video_input: false
+  train_video_length: false
+  test_video_length: 1
+
+  args:
+    ~
+
+  opt:
+    - name: "Adam"
+      lr: 0.0001
+      beta1: 0.9
+      beta2: 0.999
+
+model_load_dir: ~
+
+training:
+  epoch: 100
+  batch_size: 16
+  patience: 20
+  save_metric: Loss
+
+  no_train_mark: false
+
+output:
+  dir: output/AODNet/demo
+
+log:
+  dir: log/AODNet/demo
+
+random_seed: 2025
+
+dataset:
+  dir: dataset
+  name: demo_data
+  fold_id: 1
+  test_on_all_fold: false
+  gt_mark: true
+
+use_gpu: true
+
+num_workers: 12
+
+verbose: true
