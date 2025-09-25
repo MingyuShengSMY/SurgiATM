@@ -1,7 +1,16 @@
 # SurgiATM
-# SPRNet: A Lightweight Model for Surgical Smoke Removal by Residual Learning [[Paper Link](https://arxiv.org/xxxxxx) not published yet]
+# SPRNet: SurgiATM: A Plug-and-Play Physics-Guided Model for Laparoscopic Surgery Smoke Removal [[Paper Link](https://arxiv.org/xxxxxx) not published yet]
 
-Anonymous
+[Mingyu Sheng]([https://mhamilton.net/](https://scholar.google.com/citations?user=P7MIBuMAAAAJ&hl=en&oi=ao))<sup>1</sup>,
+[Jianan Fan](https://ieeexplore.ieee.org/author/37090057230)<sup>1</sup>,
+[Dongnan Liu](https://scholar.google.com/citations?hl=en&user=JZzb8XUAAAAJ)<sup>1</sup>,
+[Guoyan Zheng](https://scholar.google.com/citations?user=n01L0mEAAAAJ&hl=en&oi=ao)<sup>3</sup>,
+[Ron Kikinis](https://scholar.google.com/citations?user=n01L0mEAAAAJ&hl=en&oi=ao)<sup>2</sup>,
+[Weidong Cai](https://scholar.google.com/citations?hl=en&user=N8qTc2AAAAAJ)<sup>1</sup>
+
+<sup>1</sup> [The University of Sydney](https://www.sydney.edu.au/), 
+<sup>2</sup> [Shanghai Jiao Tong University](https://hms.harvard.edu/),
+<sup>3</sup> [Harvard Medical School](https://hms.harvard.edu/)
 
 ## Method Overview
 
