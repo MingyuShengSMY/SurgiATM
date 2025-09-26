@@ -92,11 +92,11 @@ Config files are stored in `./ConfigFiles`. The config file defines the experime
 
 ## Run
 
-1. Click to download datasets [Cholec80](http://camma.u-strasbg.fr/datasets/) and [VASST-desmoke](https://github.com/wxia43/DesmokeData).
+1. Click to download datasets [Cholec80](http://camma.u-strasbg.fr/datasets/), [VASST-desmoke](https://github.com/wxia43/DesmokeData), and the [Hamlyn Dataset](https://hamlyn.doc.ic.ac.uk/vision/).
 
 2. Arrange the data by following the [Dataset Directory](#Dataset-Directory).
 
-3. [Generate simulated smoke](#Generate-Simulated-Smoke) for Cholec80 dataset or other un-paired datasets.
+3. [Generate simulated smoke](#Generate-Simulated-Smoke) for un-paired datasets.
 
 4. [Split data](#Data-Splitting).
 
