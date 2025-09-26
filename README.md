@@ -1,5 +1,5 @@
 # SurgiATM
-# SPRNet: SurgiATM: A Plug-and-Play Physics-Guided Model for Laparoscopic Surgery Smoke Removal [[Paper Link](https://arxiv.org/xxxxxx) not published yet]
+# SurgiATM: A Plug-and-Play Physics-Guided Model for Laparoscopic Surgery Smoke Removal [[Paper Link](https://arxiv.org/xxxxxx) not published yet]
 
 [Mingyu Sheng](https://scholar.google.com/citations?user=P7MIBuMAAAAJ&hl=en&oi=ao)<sup>1</sup>,
 [Jianan Fan](https://ieeexplore.ieee.org/author/37090057230)<sup>1</sup>,
