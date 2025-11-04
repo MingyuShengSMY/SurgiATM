@@ -9,7 +9,7 @@
 
 <sup>1</sup> [The University of Sydney](https://www.sydney.edu.au/), 
 <sup>2</sup> [Shanghai Jiao Tong University](https://hms.harvard.edu/),
-<sup>3</sup> [Harvard Medical School](https://hms.harvard.edu/),
+<sup>3</sup> [Harvard Medical School](https://hms.harvard.edu/)
 
 
 
