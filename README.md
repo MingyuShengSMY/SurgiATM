@@ -12,6 +12,9 @@
 <sup>3</sup> [Shanghai Jiao Tong University](https://hms.harvard.edu/)
 
 
+![](assest/Natural_MIS_Error_Comparison.png)
+
+
 ## Setup
 * Recommended Environment: Python 3.12.0+, Cuda 12.0+
 * Install dependencies: `pip install -r requirements.txt`.
