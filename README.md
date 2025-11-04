@@ -1,4 +1,4 @@
-# SurgiATM: A Plug-and-Play Physics-Guided Model for Laparoscopic Surgery Smoke Removal [[Paper Link](https://arxiv.org/xxxxxx) not published yet]
+# SurgiATM: A Physics-Guided Plug-and-Play Model for Deep Learning-Based Smoke Removal in Laparoscopic Surgery
 
 [Mingyu Sheng](https://scholar.google.com/citations?user=P7MIBuMAAAAJ&hl=en&oi=ao)<sup>1</sup>,
 [Jianan Fan](https://ieeexplore.ieee.org/author/37090057230)<sup>1</sup>,
@@ -11,8 +11,12 @@
 <sup>2</sup> [Shanghai Jiao Tong University](https://hms.harvard.edu/),
 <sup>3</sup> [Harvard Medical School](https://hms.harvard.edu/)
 
+## 📄Paper Link
+TMI: [TODO](http://)
 
+Arxiv: [TODO](https://arxiv.org/xxxxxx)
 
+## Concept Figure
 ![](assest/Natural_MIS_Error_Comparison.png)
 
 
@@ -83,7 +87,7 @@ By default, the generated folder structure should be:
 
 The folders `1`, `2`, ..., and `5` indicate different folds in K-Fold Cross-Validation.
 
-`train.txt` and `val.txt` store paths of training data and validating data respectively.
+`train.txt` and `val.txt` store paths of training data and validating data, respectively.
 
 `all.txt` contains all samples, particularly for Dark Channel Prior (DCP), because DCP does not need training.
 
@@ -112,16 +116,16 @@ Config files are stored in `./ConfigFiles`. The config file defines the experime
 python main.py --config_file ConfigFiles/demo1.yaml --train --test --vis
 ```
 
-`--train` and `--test` will start training and testing mode respectively. At least one of them should be used.
+`--train` and `--test` will start training and testing mode, respectively. At least one of them should be used.
 
 `--vis` will visualize results in `--test` mode.
 
-7. By default, folders `./log` and `./output` will be created to store loss log and output result respectively.
+7. By default, folders `./log` and `./output` will be created to store loss log and output resul,t respectively.
 
 
 ## Citation
 
-Not published yet.
+TODO.
 
 
 
