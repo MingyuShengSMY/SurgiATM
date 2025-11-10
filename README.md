@@ -14,7 +14,7 @@
 ## 📄Paper Link
 TMI: [TODO](http://)
 
-Arxiv: [TODO](https://arxiv.org/xxxxxx)
+Arxiv: [https://arxiv.org/abs/2511.05059](https://arxiv.org/abs/2511.05059)
 
 ## 🖼️Concept Figure
 ![](assest/Natural_MIS_Error_Comparison.png)
@@ -125,7 +125,26 @@ python main.py --config_file ConfigFiles/demo1.yaml --train --test --vis
 
 ## 📝Citation
 
-TODO.
+TMI: 
+
+```
+TODO
+```
+
+
+arXiv:
+
+```
+@misc{sheng2025surgiatmphysicsguidedplugandplaymodel,
+      title={SurgiATM: A Physics-Guided Plug-and-Play Model for Deep Learning-Based Smoke Removal in Laparoscopic Surgery}, 
+      author={Mingyu Sheng and Jianan Fan and Dongnan Liu and Guoyan Zheng and Ron Kikinis and Weidong Cai},
+      year={2025},
+      eprint={2511.05059},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2511.05059}, 
+}
+```
 
 
 
