@@ -20,6 +20,26 @@ Arxiv: [https://arxiv.org/abs/2511.05059](https://arxiv.org/abs/2511.05059)
 ![](assest/Natural_MIS_Error_Comparison.png)
 
 
+## ⚙️Plug-and-Play
+1. Copy `model/SurgiATM.py` into your project directory.
+2. Import `SurgiATM` and use it as a `nn.Module`.
+3. For example:
+   
+```
+from SurgiATM import SurgiATM
+
+class YourModel(nn.Module):
+    def __init__():
+        your_net = Net()
+        surgi_atm = SurgiATM(dc_window_size=15, eta=0.1)
+
+    def forward(x):
+        your_output = your_net(x)
+        result, _, _ = surgi_atm(x, your_output)
+        return result
+```
+
+
 ## 💻Setup
 * Recommended Environment: Python 3.12.0+, Cuda 12.0+
 * Install dependencies: `pip install -r requirements.txt`.
