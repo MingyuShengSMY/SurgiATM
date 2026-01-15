@@ -12,7 +12,7 @@
 <sup>3</sup> [Harvard Medical School](https://hms.harvard.edu/)
 
 ## 📄Paper Link
-TMI: [TODO](http://)
+Medical Image Analysis: [TODO](http://)
 
 Arxiv: [https://arxiv.org/abs/2511.05059](https://arxiv.org/abs/2511.05059)
 
@@ -125,7 +125,7 @@ python main.py --config_file ConfigFiles/demo1.yaml --train --test --vis
 
 ## 📝Citation
 
-TMI: 
+Medical Image Analysis: 
 
 ```
 TODO
