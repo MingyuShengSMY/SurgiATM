@@ -5,11 +5,11 @@ import torchvision.transforms.functional as tv_tf
 
 
 class SurgiATM(nn.Module):
-    def __init__(self, dc_window_size=15, dc_bias=0.1, w=0.95):
+    def __init__(self, dc_window_size=15, eta=0.1, w=0.95):
         super().__init__()
         self.dc_wz = dc_window_size
         self.w = w
-        self.dc_bias = dc_bias
+        self.eta = eta
 
     def __get_dc__(self, x: torch.Tensor):
         # [..., C, H, W]
@@ -40,7 +40,7 @@ class SurgiATM(nn.Module):
 
         normalized_radiance = model_output  # \rho
 
-        dc_rho = (self.dc_bias + dc) / (self.dc_bias + 1) * (1 - normalized_radiance)
+        dc_rho = (self.eta + dc) / (self.eta + 1) * (1 - normalized_radiance)
 
         pre_clean_image = smoky_image - dc_rho
 
